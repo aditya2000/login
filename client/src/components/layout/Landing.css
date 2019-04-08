@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC');
+
+.landing {
+    text-align: center;
+    font-family: 'Noto Serif TC', serif;
+    padding: 10em;
+}
+
+.landing h4 {
+    font-size: 3em;
+}
+
+.buttons {
+    margin: 1em;
+}
+
+.btn-landing {
+    padding: 1em;
+    margin: 2em;
+    width: 10em;
+    border: none;
+    border-radius: 1.5px;
+    cursor: pointer;
+    font-family: 'Noto Serif TC', serif;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(55, 195, 238);
+    outline: none;
+    transition: 0.5s;
+}
+
+.btn-landing:hover{
+    background-color: black;
+}

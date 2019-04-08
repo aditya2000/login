@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC');
+
+.register {
+    text-align: center;
+    font-family: 'Noto Serif TC', serif;
+    padding: 10em;
+}
+
+.input-field input{
+    font-family: 'Noto Serif TC', serif;
+    padding: .5em;
+    margin: 1em;
+    width: 20em;
+    outline-color: rgb(55, 195, 238);
+    border-bottom: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.btn-register {
+    padding: 1em;
+    margin: 2em;
+    width: 10em;
+    border: none;
+    border-radius: 1.5px;
+    cursor: pointer;
+    font-family: 'Noto Serif TC', serif;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(55, 195, 238);
+    outline: none;
+    transition: 0.5s;
+}
+
+.btn-register:hover {
+    background-color: black;
+}
