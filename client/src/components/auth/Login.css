@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC');
 
-.register {
+.login {
     text-align: center;
     font-family: 'Noto Serif TC', serif;
     padding: 10em;
     color: rgb(48, 39, 39);
 }
+
 
 .input-field input{
     font-family: 'Noto Serif TC', serif;
@@ -19,7 +20,7 @@
     border-right: none;
 }
 
-.btn-register {
+.btn-login {
     padding: 1em;
     margin: 2em;
     width: 10em;
@@ -34,6 +35,6 @@
     transition: 0.5s;
 }
 
-.btn-register:hover {
+.btn-login:hover {
     background-color: black;
 }
